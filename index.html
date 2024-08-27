@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/135d51a126.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              },
+              fontFamily:{
+                'manrope':["Manrope", 'sans-serif'],
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="font-manrope">
+    <header class="max-w-screen-xl mx-auto">
+      <nav class="flex justify-between items-center ">
+        <div>
+          <i class="fa-solid fa-arrow-up border-2 rounded-full bg-[#ABEF5F]"></i>
+          Rinterio
+        </div>
+        <div>
+          <ul class="flex items-center gap-9">
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="">About</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <i class="fa-solid fa-arrow-up"></i>
+          <i class="fa-solid fa-arrow-up"></i>
+          <Button class="bg-[#ABEF5F] px-5 py-3 rounded-3xl">
+            Book Consult
+            <i class="fa-solid fa-arrow-up rotate-45 border-2 text-md p-1 text-[#FFFFFF] bg-[#1C1C1C] rounded-full"></i>
+          </Button>
+        </div>
+      </nav>
+        <!-- banner -->
+         <div class="">
+            <img src="assets/banner.png" alt="">
+            <h1 class="font-extrabold text-6xl">A barn house of this design has a striking appearance</h1>
+            <p class="text-lg">This is the page where I work daily <br> I love to work here</p>
+            <button class="bg-[#ABEF5F] px-6 py-3 flex border-2 rounded-3xl font-bold text-lg items-center">
+                View Details
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 border-2 rounded-full">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                  
+            </button>
+         </div>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
